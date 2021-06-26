@@ -1,14 +1,25 @@
+//Breakpoint
 $min-tablet: 768px;
+//Font
 
-
+//Font Size
+$x-small: 10px;
 $small: 14px;
 $medium: 16px;
-$large: 20px;
-$x-large: 24px;
+$large: 18px;
+$x-large: 20px;
 $xx-large: 30px;
-$xxx-large: 50px;
-
+$xxx-large: 40px;
+//Font Famliy
 $roboto: 'Roboto', sans-serif;
 $monserrat: 'Montserrat', sans-serif;
 $poppins: 'Poppins', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
+
+//Color Scheme
+$swamp: #001614;
+$gray: #888;
+$silver: #CCC;
+$white: #FFF;
+$sky-blue: #79DEE7;
+$persimmon: #FF565B;

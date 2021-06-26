@@ -3,28 +3,25 @@
     height: 20vw;
   }
   &__contact {
+    padding: 1rem 3rem;
     align-items: center;
     justify-content: center;
     & .user-info {
       align-items: center;
       &__image {
-        border: 1px solid pink;
-        width: 20vw;
-        height: 20vw;
-        margin-right: 5vw;
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1rem;
       }
       &__body {
-
+        h1 {
+          margin-bottom: 0;
+        }
       }
-    }
-  }
-  & .contact-buttons {
-    & .buttons {
-
     }
   }
   @include breakpoint($min-tablet) {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid $silver;
     &__image {
       height: 15.5vw;
       img {
@@ -32,20 +29,8 @@
       }
     }
     &__contact {
+      padding: 1rem 6rem;
       justify-content: space-between;
-      & .user-info {
-        &__image {
-
-        }
-        &__body {
-
-        }
-      }
-    }
-    & .contact-buttons {
-      & .buttons {
-
-      }
     }
   }
 }

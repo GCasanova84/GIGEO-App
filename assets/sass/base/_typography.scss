@@ -10,11 +10,17 @@ h3 {
 }
 h4, h5 {
   font-family: $open-sans;
-  font-size: $medium;
+  font-size: $small;
+  color: $gray;
   font-weight: 400;
 }
 h2 {
   font-family: $monserrat;
   font-size: $x-large;
   font-weight: 500;
+}
+@include breakpoint($min-tablet) {
+  h3 {
+    font-size: $large;
+  }
 }

@@ -1,0 +1,23 @@
+.toggle-button {
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+.button {
+  font-family: $open-sans;
+  font-size: $medium;
+  color: $white;
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+}
+.green-button {
+  background-color: $sky-blue;
+}
+.red-button {
+  background-color: $persimmon;
+  margin-left: 1rem;
+}
+.button:hover {
+  opacity: .8;
+}

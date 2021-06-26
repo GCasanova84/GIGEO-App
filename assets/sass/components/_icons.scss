@@ -5,7 +5,7 @@
     font-family: $poppins;
     font-size: $xxx-large;
     text-decoration: none;
-    color: black;
+    color: $swamp;
   }
   span {
     position: absolute;
@@ -14,4 +14,39 @@
     font-family: $roboto;
     font-size: $small;
   }
+  @include breakpoint($min-tablet) {
+    a {
+      font-family: $poppins;
+      font-size: $xx-large;
+    }
+    span {
+      font-size: $x-small;
+    }
+  }
+}
+
+.icon {
+  color: $gray;
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+  @include breakpoint($min-tablet) {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.icon-m {
+  color: $swamp;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  @include breakpoint($min-tablet) {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.icon-m:hover {
+  color: $gray;
 }
