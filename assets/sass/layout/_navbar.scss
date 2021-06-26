@@ -1,0 +1,28 @@
+.nav-bar {
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+
+  }
+  &__menu{
+    & .menu-container {
+
+    }
+    & .menu-button {
+
+    }
+  }
+  @include breakpoint($min-tablet) {
+    &__logo {
+
+    }
+    &__menu{
+      & .menu-container {
+        display: flex;
+      }
+      & .menu-button {
+
+      }
+    }
+  }
+}

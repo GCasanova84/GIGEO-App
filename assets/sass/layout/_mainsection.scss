@@ -1,0 +1,30 @@
+.video-section {
+  &__title {
+    text-align: center;
+  }
+  &__body {
+    & .video-item {
+      &__image {
+
+      }
+      &__body {
+
+      }
+    }
+  }
+  @include breakpoint($min-tablet) {
+    &__title {
+      text-align: left;
+    }
+    &__body {
+      & .video-item {
+        &__image {
+
+        }
+        &__body {
+
+        }
+      }
+    }
+  }
+}

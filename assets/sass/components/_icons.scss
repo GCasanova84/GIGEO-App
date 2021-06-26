@@ -1,0 +1,17 @@
+.nav-bar__logo {
+  position: relative;
+  padding: 0.2rem 1rem 0.2rem 0;
+  a {
+    font-family: $poppins;
+    font-size: $xxx-large;
+    text-decoration: none;
+    color: black;
+  }
+  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: $roboto;
+    font-size: $small;
+  }
+}

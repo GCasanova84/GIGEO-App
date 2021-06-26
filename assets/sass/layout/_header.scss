@@ -1,0 +1,51 @@
+.header {
+  &__image {
+    height: 20vw;
+  }
+  &__contact {
+    align-items: center;
+    justify-content: center;
+    & .user-info {
+      align-items: center;
+      &__image {
+        border: 1px solid pink;
+        width: 20vw;
+        height: 20vw;
+        margin-right: 5vw;
+      }
+      &__body {
+
+      }
+    }
+  }
+  & .contact-buttons {
+    & .buttons {
+
+    }
+  }
+  @include breakpoint($min-tablet) {
+    border-bottom: 1px solid gray;
+    &__image {
+      height: 15.5vw;
+      img {
+        object-position: center;
+      }
+    }
+    &__contact {
+      justify-content: space-between;
+      & .user-info {
+        &__image {
+
+        }
+        &__body {
+
+        }
+      }
+    }
+    & .contact-buttons {
+      & .buttons {
+
+      }
+    }
+  }
+}
