@@ -9,7 +9,7 @@ $(window).resize(function() {
   if ($(window).width() < 768) {
     $('.nav-bar__menu').hide();
     $( '.toggle-button' ).prop( "checked", false );
-    $( '.toggle-button' ).on( 'click', function() {
+    $( '.toggle-button' ).change(function() {
         if( $(this).is(':checked') ){
             $('.nav-bar__menu').slideDown('slow');
         } else {
