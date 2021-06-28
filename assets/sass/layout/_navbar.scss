@@ -1,4 +1,7 @@
 .nav-bar {
+  position: sticky;
+  top: 0;
+  background-color: $white;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -12,9 +15,6 @@
     & .toggle-button {
       position: absolute;
       z-index: 2;
-      opacity: 1;
-    }
-    & .toggle-icon {
       opacity: 0;
     }
   }

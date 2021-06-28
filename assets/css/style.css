@@ -10832,6 +10832,9 @@ h2, .h2 {
 }
 
 .nav-bar {
+  position: sticky;
+  top: 0;
+  background-color: #FFF;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -10847,9 +10850,6 @@ h2, .h2 {
 .nav-bar__toggler .toggle-button {
   position: absolute;
   z-index: 2;
-  opacity: 1;
-}
-.nav-bar__toggler .toggle-icon {
   opacity: 0;
 }
 .nav-bar__menu {

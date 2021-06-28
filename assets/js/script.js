@@ -16,7 +16,6 @@ $(window).resize(function() {
 
 $( '.toggle-button' ).change(function() {
   if ($(window).width() < 768) {
-    alert("hola Dani");
     if( $(this).is(':checked') ) {
         $('.nav-bar__menu').slideDown('slow');
     } else {
