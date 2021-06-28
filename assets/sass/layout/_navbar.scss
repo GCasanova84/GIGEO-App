@@ -12,6 +12,9 @@
     & .toggle-button {
       position: absolute;
       z-index: 2;
+      opacity: 1;
+    }
+    & .toggle-icon {
       opacity: 0;
     }
   }

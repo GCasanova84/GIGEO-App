@@ -10847,6 +10847,9 @@ h2, .h2 {
 .nav-bar__toggler .toggle-button {
   position: absolute;
   z-index: 2;
+  opacity: 1;
+}
+.nav-bar__toggler .toggle-icon {
   opacity: 0;
 }
 .nav-bar__menu {
