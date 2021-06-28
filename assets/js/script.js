@@ -9,7 +9,7 @@ $(window).resize(function() {
   if ($(window).width() < 768) {
     $('.nav-bar__menu').hide();
     $( '.toggle-button' ).prop( "checked", false );
-    $( '.toggle-button' ).change(function() {
+    $( '.toggle-button' ).on( "click tap", function() {
       alert("hola Dani");
         if( $(this).is(':checked') ){
             $('.nav-bar__menu').slideDown('slow');
