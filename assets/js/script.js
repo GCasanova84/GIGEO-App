@@ -10,6 +10,7 @@ $(window).resize(function() {
     $('.nav-bar__menu').hide();
     $( '.toggle-button' ).prop( "checked", false );
     $( '.toggle-button' ).change(function() {
+      alert("hola Dani");
         if( $(this).is(':checked') ){
             $('.nav-bar__menu').slideDown('slow');
         } else {
