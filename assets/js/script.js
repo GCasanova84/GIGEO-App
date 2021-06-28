@@ -30,6 +30,7 @@ $(window).scroll(function() {
       $( ".nav-bar" ).css( "border-bottom", "1px solid #CCC" );
     } else {
       $( ".nav-bar" ).css( "border-bottom", "none" );
+    }
   } else {
     if($(window).scrollTop()>=($( ".header__contact" ).offset().top - 88.9667)) {
       $( ".nav-bar" ).css( "border-bottom", "1px solid #CCC" );
