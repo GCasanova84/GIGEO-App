@@ -9,15 +9,18 @@ $(window).resize(function() {
   if ($(window).width() < 768) {
     $('.nav-bar__menu').hide();
     $( '.toggle-button' ).prop( "checked", false );
-    $( '.toggle-button' ).on( "click tap", function() {
-      alert("hola Dani");
-        if( $(this).is(':checked') ){
-            $('.nav-bar__menu').slideDown('slow');
-        } else {
-            $('.nav-bar__menu').slideUp('slow');
-        }
-    });
   } else {
     $('.nav-bar__menu').show();
+  }
+});
+
+$( '.toggle-button' ).change(function() {
+  if ($(window).width() < 768) {
+    alert("hola Dani");
+    if( $(this).is(':checked') ) {
+        $('.nav-bar__menu').slideDown('slow');
+    } else {
+        $('.nav-bar__menu').slideUp('slow');
+    }
   }
 });
